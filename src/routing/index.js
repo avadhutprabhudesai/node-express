@@ -2,8 +2,8 @@ require('./methods');
 require('./paths');
 require('./parameters');
 require('./handlers');
-require('./express-router');
 require('./app-route');
+require('./express-router/index');
 
 /**
  *  Route methods
