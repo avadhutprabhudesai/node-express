@@ -1,2 +1,2 @@
-require('./basics');
-
+// require('./basics');
+require('./routing');
