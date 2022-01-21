@@ -46,6 +46,9 @@ app.get('/user/:id', (req, res) => {
 });
 
 // middleware with app.METHOD()
+app.post('/user/create', dataValidator, (req, res, next) => {
+  next();
+});
 app.post('/user/create', (req, res) => {
   logger(`${__filename}`, 'POST /user/create on', PORT);
   res.end('User created');
