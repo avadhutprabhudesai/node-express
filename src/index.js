@@ -1,2 +1,3 @@
 // require('./basics');
-require('./routing');
+// require('./routing');
+require('./middlewares');
