@@ -54,8 +54,8 @@ app.get('/props/:id', (req, res) => {
   console.log('\n=============== URL Props =============== ');
   console.log(props.urlProps);
   console.log('===========================================\n');
-  console.log(props.networkProps);
   console.log('\n=============== Network Props =============== ');
+  console.log(props.networkProps);
   console.log('===========================================\n');
   console.log('\n=============== Parameters =============== ');
   console.log(props.parameterProps);
